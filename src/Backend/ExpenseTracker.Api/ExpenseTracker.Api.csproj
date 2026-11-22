@@ -11,4 +11,15 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\ExpenseTracker.Communication\ExpenseTracker.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\ExpenseTracker.Exception\ExpenseTracker.Exception.csproj" />
+    <ProjectReference Include="..\ExpenseTracker.Application\ExpenseTracker.Application.csproj" />
+    <ProjectReference Include="..\ExpenseTracker.Infrastructure\ExpenseTracker.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

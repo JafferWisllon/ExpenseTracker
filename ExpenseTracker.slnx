@@ -2,7 +2,13 @@
   <Folder Name="/src/" />
   <Folder Name="/src/Backend/">
     <Project Path="src/Backend/ExpenseTracker.Api/ExpenseTracker.Api.csproj" />
+    <Project Path="src/Backend/ExpenseTracker.Application/ExpenseTracker.Application.csproj" />
+    <Project Path="src/Backend/ExpenseTracker.Domain/ExpenseTracker.Domain.csproj" />
+    <Project Path="src/Backend/ExpenseTracker.Infrastructure/ExpenseTracker.Infrastructure.csproj" />
   </Folder>
-  <Folder Name="/src/Shared/" />
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/ExpenseTracker.Communication/ExpenseTracker.Communication.csproj" />
+    <Project Path="src/Shared/ExpenseTracker.Exception/ExpenseTracker.Exception.csproj" />
+  </Folder>
   <Folder Name="/tests/" />
 </Solution>
